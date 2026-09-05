@@ -2,6 +2,8 @@
 
 MediSearch is a responsive medicine search app built with Next.js, TypeScript, Tailwind CSS, TanStack Query, and Nx. It searches the official openFDA drug label database by brand name and presents label details such as uses, dosage instructions, warnings, ingredients, manufacturer information, and product identifiers.
 
+**Live Demo:** [https://medisearchweb.netlify.app/](https://medisearchweb.netlify.app/)
+
 ---
 
 ## Quick Start
