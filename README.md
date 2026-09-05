@@ -1,6 +1,6 @@
-# Medicine Search App (FDA Drug Labels)
+# MediSearch: FDA Medicine Label Search
 
-A clean and simple medicine search web app built with Next.js, TypeScript, Tailwind CSS, TanStack Query, and Nx. It lets users search US FDA-approved medicines by brand name and read their official label details (uses, dosage, warnings, and ingredients).
+MediSearch is a responsive medicine search app built with Next.js, TypeScript, Tailwind CSS, TanStack Query, and Nx. It searches the official openFDA drug label database by brand name and presents label details such as uses, dosage instructions, warnings, ingredients, manufacturer information, and product identifiers.
 
 ---
 
@@ -17,20 +17,19 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 3. Production build (with Nx)
+### 3. Create and run a production build
 ```bash
-npx nx build
+npm run build
 npm run start
 ```
-
----
-
 ## Tech Stack & Architecture
 
-- **Next.js 15 (App Router)**: Fast page routing and server/client boundary handling.
+- **Next.js 15 (App Router)**: Page routing and server/client boundary handling.
 - **TypeScript**: Strict typing for FDA API responses and component props.
-- **Tailwind CSS**: Clean, responsive layout for mobile and desktop screens.
+- **Tailwind CSS**: Responsive layout for mobile and desktop screens.
 - **TanStack Query (React Query v5)**: Server state management, client-side caching, and request lifecycle.
-- **Nx**: Monorepo tooling and task orchestration (`nx build`, `nx dev`).
+- **Lucide React**: Interface icons.
+- **Nx**: Task orchestration for the Next.js build, development, start, and lint commands.
+
 
 
